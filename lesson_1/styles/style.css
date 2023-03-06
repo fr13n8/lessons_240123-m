@@ -40,10 +40,10 @@ p {
 }
 
 p {
-    /* display: inline; */
+    display: inline;
 }
 
 a {
-    /* display: block; */
+    display: block;
     border: 1px solid red;
 }
