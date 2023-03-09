@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ul, ol {
+    padding-left: 25px; */
+    /* list-style: decimal; */
+/* } */
+
+/* ol { */
+    /* list-style: disc; */
+/* } */
+
+table {
+    margin: 20px;
+    /* border-collapse: collapse; */
+    /* width: 500px;
+    height: 500px;
+    text-align: center; */
+}
+
+table, tr, td, th {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
+
+
+
+/* .green-back {
+    background-color: green;
+} */
+
+/* nth-child = нный элемент */
+/* table tr:nth-child(1) {
+    background-color: green;
+} */
+/*
+2n - 1 = odd
+0 => 2 * 0 - 1 = -1
+1 => 2 * 1 - 1 = 1
+2 => 2 * 2 - 1 = 3
+3 => 2 * 3 - 1 = 5
+*/
+/*
+2n = even
+0 => 2 * 0 = 0
+1 => 2 * 1 = 2
+2 => 2 * 2 = 4
+*/
+
+/* table tr:last-child {
+    background-color: green;
+}
+
+table tr:first-child {
+    background-color: blue;
+} */
+
+/*
+сделать так чтобы строки были разукрашены последовательно в 4 любых цвета
+*/
+
+/* table tr:nth-child(4n) {
+    background-color: aquamarine;
+}
+
+table tr:nth-child(4n-1) {
+    background-color: red;
+}
+
+table tr:nth-child(4n-2) {
+    background-color: gold;
+}
+
+table tr:nth-child(4n-3) {
+    background-color: deeppink;
+} */
+
+/* table tr:nth-child(odd) td:nth-child(even),
+table tr:nth-child(even) td:nth-child(odd) {
+    background-color: black;
+} */
