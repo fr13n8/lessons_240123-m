@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+/* body {
+    padding: 50px;
+} */
+
+/* html {
+    font-size: 24px;
+}
+
+p {
+    border: 1px solid black;
+}
+
+.paragraph_1 {
+    width: 100%;
+}
+
+.paragraph_3 {
+    width: 1850px;
+}
+
+.paragraph_3 {
+    font-size: 0.5em;
+} */
+
+/* li { */
+    /* rem (root em) */
+    /* font-size: 0.5rem;
+} */
+
+/* .paragraph_2 { */
+    /* viewpoint width + width scrollbar */
+    /* viewpoint height + height scrollbar */
+    /* width: 100vw;
+    height: 100vh;
+} */
+
+div {
+    border: 1px solid black;
+}
+
+/* .block_1 { */
+    /* vmin сравнивает vw и vh и берет тот у которого размер по меньше */
+    /* vmax сравнивает vw и vh и берет тот у которого размер побольше */
+    /* width: 50vmax;
+    height: 50vmin;
+} */
+
+/* .box {
+    width: 300px;
+    height: 300px;
+    margin: 50px 10px;
+    padding: 30px 20px; */
+    /* box-sizing: border-box; */
+/* } */
+
+/* 
+1 - создать блок шириной 50% и высотой 400px  
+2 - Добавить внутренние отступы слева и справа (5%) а внешними (20%) и отступами сверху и снизу (внутренние 30px а внешние 40px).
+3 - Добавьте черную рамку в 5px и добавьте border-box и посмотреть разницу
+*/
+
+/* .block {
+    width: 50%;
+    height: 400px;
+    padding: 30px 5%;
+    margin: 40px 20%;
+    border: 5px solid black; */
+    /* box-sizing: border-box; */
+/* } */
+
+/* RGB 
+red, green, blue
+*/
+
+/* .block { */
+    /* width: 400px; */
+    /* height: 400px; */
+
+    /* min-height: 400px;
+    max-height: 1500px;
+    min-width: 500px;
+    max-width: 1200px; */
+    /* background-color: rgb(255, 0, 255); */
+    /* a = 0 <-> 1 */
+    /* background-color: rgba(255, 0, 255, 0.5) */
+    /* HEX format */
+    /* background-color: #02dbc9; */
+/* } */
+
+/* 0 1 2 3 4 5 6 7 8 9 A B C D E F */
+/* F2 D3 FF 00 */
+
+/*
+1 - Создать 3 дива (разделы страницы)
+2 - Все блоки делаем шириной 80% и максимальной шириной 1200px и высотой минимум 400px.
+3 - Добавляем внутренний отступ 20px со всех сторон и внешний только вертикальный 20px
+4 - В третьем блоке ссылки на 4 магазина (любых) либо поставить заглушку(href="#"). Ссылки должны быть в виде кликабельных картинок, 130px на 130px
+*/
+
+.block {
+    width: 80%;
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.img-block {
+    width: 300px;
+    height: 400px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.products-block a img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
